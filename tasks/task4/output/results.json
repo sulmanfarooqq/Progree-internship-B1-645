@@ -1,0 +1,232 @@
+{
+  "total_frames": 30,
+  "resolution": "640x480",
+  "objects_tracked": 8,
+  "avg_processing_time_ms": 6371.195,
+  "avg_detections_per_frame": 5.63,
+  "total_detections": 169,
+  "pipeline_stages": [
+    "Gaussian Filter",
+    "Adaptive Threshold",
+    "Morphological Cleanup",
+    "Contour Detection",
+    "Shape Classification",
+    "Object Tracking"
+  ],
+  "frame_metrics": [
+    {
+      "frame": 0,
+      "time_ms": 9054.854599991813,
+      "detections": 6,
+      "contours": 6
+    },
+    {
+      "frame": 1,
+      "time_ms": 9724.004600022454,
+      "detections": 6,
+      "contours": 6
+    },
+    {
+      "frame": 2,
+      "time_ms": 5686.699800018687,
+      "detections": 6,
+      "contours": 6
+    },
+    {
+      "frame": 3,
+      "time_ms": 6006.0764999943785,
+      "detections": 6,
+      "contours": 6
+    },
+    {
+      "frame": 4,
+      "time_ms": 5615.3494999744,
+      "detections": 6,
+      "contours": 6
+    },
+    {
+      "frame": 5,
+      "time_ms": 5290.929400012828,
+      "detections": 6,
+      "contours": 6
+    },
+    {
+      "frame": 6,
+      "time_ms": 5417.89169999538,
+      "detections": 6,
+      "contours": 6
+    },
+    {
+      "frame": 7,
+      "time_ms": 5869.922599988058,
+      "detections": 6,
+      "contours": 6
+    },
+    {
+      "frame": 8,
+      "time_ms": 5679.512800008524,
+      "detections": 6,
+      "contours": 6
+    },
+    {
+      "frame": 9,
+      "time_ms": 6718.533799983561,
+      "detections": 5,
+      "contours": 5
+    },
+    {
+      "frame": 10,
+      "time_ms": 5812.584600003902,
+      "detections": 5,
+      "contours": 5
+    },
+    {
+      "frame": 11,
+      "time_ms": 4753.300399985164,
+      "detections": 5,
+      "contours": 5
+    },
+    {
+      "frame": 12,
+      "time_ms": 5006.914800032973,
+      "detections": 5,
+      "contours": 5
+    },
+    {
+      "frame": 13,
+      "time_ms": 5700.249499990605,
+      "detections": 5,
+      "contours": 5
+    },
+    {
+      "frame": 14,
+      "time_ms": 5400.940300023649,
+      "detections": 5,
+      "contours": 5
+    },
+    {
+      "frame": 15,
+      "time_ms": 5352.2075999644585,
+      "detections": 5,
+      "contours": 5
+    },
+    {
+      "frame": 16,
+      "time_ms": 8589.199899986852,
+      "detections": 5,
+      "contours": 5
+    },
+    {
+      "frame": 17,
+      "time_ms": 6024.952500010841,
+      "detections": 5,
+      "contours": 5
+    },
+    {
+      "frame": 18,
+      "time_ms": 7423.939599946607,
+      "detections": 5,
+      "contours": 5
+    },
+    {
+      "frame": 19,
+      "time_ms": 8383.036800019909,
+      "detections": 5,
+      "contours": 5
+    },
+    {
+      "frame": 20,
+      "time_ms": 7637.977799982764,
+      "detections": 5,
+      "contours": 5
+    },
+    {
+      "frame": 21,
+      "time_ms": 5301.856799982488,
+      "detections": 5,
+      "contours": 5
+    },
+    {
+      "frame": 22,
+      "time_ms": 6262.893799983431,
+      "detections": 6,
+      "contours": 6
+    },
+    {
+      "frame": 23,
+      "time_ms": 5369.092200009618,
+      "detections": 6,
+      "contours": 6
+    },
+    {
+      "frame": 24,
+      "time_ms": 5421.295499952976,
+      "detections": 7,
+      "contours": 7
+    },
+    {
+      "frame": 25,
+      "time_ms": 7642.7681999630295,
+      "detections": 7,
+      "contours": 7
+    },
+    {
+      "frame": 26,
+      "time_ms": 7335.085899976548,
+      "detections": 6,
+      "contours": 6
+    },
+    {
+      "frame": 27,
+      "time_ms": 7891.3017000304535,
+      "detections": 6,
+      "contours": 6
+    },
+    {
+      "frame": 28,
+      "time_ms": 5219.979899993632,
+      "detections": 6,
+      "contours": 6
+    },
+    {
+      "frame": 29,
+      "time_ms": 5542.4904999672435,
+      "detections": 6,
+      "contours": 6
+    }
+  ],
+  "tracking_summary": {
+    "0": {
+      "type": "unknown",
+      "frames_seen": 30
+    },
+    "1": {
+      "type": "rectangle",
+      "frames_seen": 25
+    },
+    "2": {
+      "type": "triangle",
+      "frames_seen": 9
+    },
+    "3": {
+      "type": "rectangle",
+      "frames_seen": 30
+    },
+    "4": {
+      "type": "circle",
+      "frames_seen": 30
+    },
+    "5": {
+      "type": "circle",
+      "frames_seen": 30
+    },
+    "6": {
+      "type": "unknown",
+      "frames_seen": 2
+    },
+    "7": {
+      "type": "triangle",
+      "frames_seen": 13
+    }
+  }
+}
